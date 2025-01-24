@@ -1,0 +1,18 @@
+{
+    "header" :{
+        "About_us": "Conócenos",
+        "Our_services": "Servicios",
+        "Industries": "Sectores",
+        "Data_Security": "Seguridad Info",
+        "Customers": "Clientes",
+        "Contact_us": "Contactanos",
+        "Language": "Ingles"
+    },
+    "footer":{
+        "Privacy_Policy": "Politicas de Privacidad",
+        "Terms_of_Use": "Terminos de Uso",
+        "Cookies": "Cookies",
+        "Contact_us": "Contactanos",
+        "Social_Media": "Redes Sociales"
+    }
+}
