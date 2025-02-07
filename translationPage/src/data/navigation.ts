@@ -7,7 +7,7 @@ export const navigation = (): Navigation[] => {
     const { t } = useTranslation("global");
 
     return [
-        { id: 1, name: t("header.About_us"), href: "#" },
+        { id: 1, name: t("header.About_us"), href: "/about-us" },
         { id: 2, name: t("header.Our_services"), href: "#" },
         { id: 3, name: t("header.Industries"), href: "#" },
         { id: 4, name: t("header.Data_Security"), href: "#" },

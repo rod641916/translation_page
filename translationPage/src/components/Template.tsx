@@ -4,12 +4,12 @@ import { XMarkIcon, Bars3Icon } from '@heroicons/react/24/outline';
 import { Dialog, DialogPanel } from '@headlessui/react';
 import { navigation } from "../data/navigation";
 import { motion } from 'framer-motion';
-
 import { ReactNode } from "react";
+import { Link } from "react-router-dom";
+
 
 export default function Template({ children }: { children: ReactNode }) {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
     const { t, i18n } = useTranslation("global");
 
     return (
@@ -44,7 +44,8 @@ export default function Template({ children }: { children: ReactNode }) {
                     </div>
                     <div className="hidden lg:flex lg:gap-x-12">
                         {navigation().map((item) => (
-                            <button
+                            <Link
+                                to={item.href}
                                 key={item.id}
                                 className="block text-sm/6 font-semibold text-gray-900 cursor-pointer text-center"
                                 onClick={() => {
@@ -54,7 +55,7 @@ export default function Template({ children }: { children: ReactNode }) {
                                 }}
                             >
                                 {item.name}
-                            </button>
+                            </Link>
                         ))}
                     </div>
                 </nav>
@@ -91,7 +92,8 @@ export default function Template({ children }: { children: ReactNode }) {
                             <div className="-my-6 divide-y divide-gray-500/10">
                                 <div className="space-y-2 py-6">
                                     {navigation().map((item) => (
-                                        <button
+                                        <Link
+                                            to={item.href}
                                             key={item.id}
                                             className="block text-sm/6 font-semibold text-gray-900 cursor-pointer"
                                             onClick={() => {
@@ -101,7 +103,8 @@ export default function Template({ children }: { children: ReactNode }) {
                                             }}
                                         >
                                             {item.name}
-                                        </button>
+                                        </Link>
+                                        
                                     ))}
                                 </div>
                             </div>

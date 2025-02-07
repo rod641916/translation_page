@@ -6,7 +6,7 @@
         "Data_Security": "Data Security",
         "Customers": "Customers",
         "Contact_us": "Contact us",
-        "Language": "Español"
+        "Language": " 🇲🇽 Español"
     },
     "footer":{
         "Privacy_Policy": "Privacy Policy",
@@ -14,5 +14,10 @@
         "Cookies": "Cookies",
         "Contact_us": "Contact us",
         "Social_Media": "Social Media"
+    },
+    "home":{
+        "title": "Translation Services",
+        "subtitle": "We provide professional translation services for all types of documents in all languages.",
+        "button": "Get a quote"
     }
 }

@@ -14,5 +14,10 @@
         "Cookies": "Cookies",
         "Contact_us": "Contactanos",
         "Social_Media": "Redes Sociales"
+    },
+    "home":{
+        "title": "Servicios de Traducción",
+        "subtitle": "Ofrecemos servicios de traducción profesional para todo tipo de documentos en todos los idiomas.",
+        "button": "Obtener una cotización"
     }
 }

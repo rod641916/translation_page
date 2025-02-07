@@ -11,6 +11,11 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about-us' element={<About_Us />} />
+          <Route path='/out-services' element={<About_Us />} />
+          <Route path='/industries' element={<About_Us />} />
+          <Route path='/data-security' element={<About_Us />} />
+          <Route path='/customers' element={<About_Us />} />
+          <Route path='/constact-us' element={<About_Us />} />
         </Routes>
       </Template>
     </Router>
